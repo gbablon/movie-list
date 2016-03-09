@@ -1,4 +1,4 @@
-// Exercise 2: Define moviesArray here
+// TODO Exercise 2: Define moviesArray here
 var moviesArray;
 
 /*
@@ -10,7 +10,7 @@ function showMovieList() {
     // Clear out the movie list first
     $("#movieListElement").empty();
     
-    // Exercise 3: Loop through each movie in the array and show it
+    // TODO Exercise 3: Loop through each movie in the array and show it
     // by calling the showMovie() function
 }
 
@@ -19,12 +19,15 @@ function showMovieList() {
  * (if it's found there).
  */
 function removeMovieFromList(movie) {
-    // Exercise 4: Finish this function
+    // TODO Exercise 4: Finish this function
 }
 
+/*
+ * Randomly picks one of the movies in moviesArray, and displays
+ * "You should watch... [movie]" with an alert.
+ */
 function suggestMovie() {
-    var randomIndex = Math.floor(Math.random() * moviesArray.length);
-    alert("You should watch... " + moviesArray[randomIndex] + "!");
+    // TODO Exercise 5: Finish this function
 }
 
 /* 
